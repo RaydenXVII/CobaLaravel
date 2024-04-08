@@ -10,12 +10,12 @@ class DatabaseSeeder extends Seeder
 {
     /**
      * Seed the application's database.
+     *  // \App\Models\User::factory(10)->create();
      *
      * @return void
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
         Restaurant::factory(10)->create();
     }
 }
